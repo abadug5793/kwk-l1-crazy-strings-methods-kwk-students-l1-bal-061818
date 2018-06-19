@@ -3,7 +3,7 @@ a= "Hello"
 b = "Friends"
 def crazy_strings(a,b)
   puts a.reverse
-  puts b.gsub("s", "z")
+  puts b.swapcase.gsub("s", "z")
 
 end
 crazy_strings(a,b)
